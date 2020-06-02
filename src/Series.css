@@ -1,0 +1,32 @@
+.add
+{
+    background-image: url(/images/img1.jpg);
+    width: 100px;
+    height: 200px;
+}
+.musica
+{
+    background-image: url(/images/img1.jpg);
+    
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    background-color: black;
+    position: relative;
+    background-position: center;
+     background-blend-mode: screen;
+    
+}
+.music::before{
+    background-color: black;
+        content: '';
+  display: block;
+  
+  position: absolute;
+ }
+.block
+{
+   display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 50px;
+}
